@@ -178,3 +178,7 @@ See [design notes](Docs/DESIGN.md) for mechanics, implementation decisions and l
 Still to come: traversable elevation, finished art/audio, controller support, broader accessibility options and human playtesting. Crowded routes may benefit from intermediate waypoints. Vehicle statistics are provisional game values, not historical specifications.
 
 Breakwater was inspired by Pacific Islands (1992). This project is not affiliated with or endorsed by the original developers or publisher, and uses none of their code, art, sound or campaign content.
+
+## Licence
+
+The code and documentation are released under the [MIT License](LICENSE). Third-party assets keep their own licences: the vehicle models are CC BY 4.0 and need their authors credited, and the Poly Haven skies, textures and scans are CC0. See [assets/CREDITS.md](assets/CREDITS.md).
