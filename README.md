@@ -2,6 +2,8 @@
 
 *A modern re-imagining of the 1992 tank strategy game Pacific Islands. Not affiliated with or endorsed by the original developers or publisher.*
 
+![Four tank groups fighting for the south relay on Reef, the first island, in the tactical view](Docs/main-game/modern-reef.png)
+
 A playable prototype in **Godot 4.7.2 .NET / .NET 10 / C# 14**. Procedural sound; photographed skies and textures from Poly Haven (CC0) and vehicle models from Sketchfab (CC BY 4.0), credited in [assets/CREDITS.md](assets/CREDITS.md). No original game code or assets are included. The three-mission campaign is new prototype content, not a recreation of the original game's campaign.
 
 ## Play
@@ -13,14 +15,6 @@ A playable prototype in **Godot 4.7.2 .NET / .NET 10 / C# 14**. Procedural sound
 Command four groups with up to four vehicles each. Bravo and Delta initially include two faster, lightly armored scouts. Capture all three radio stations by holding each ring for twelve seconds with no defenders nearby. Reconnaissance reveals enemies: scouts observe up to 82 meters, other vehicles 60, with buildings and ridges blocking sight. Hollow markers show a contact's last observed position for up to 30 seconds. Dark ground is unseen; dim ground was previously explored.
 
 Buildings and ridges block movement and fire. Tanks route around them and avoid other vehicles. Use multiple groups to flank enemy armor. Damaged or depleted vehicles can return to the southern beach supply zone: stop south of the bright line, out of contact, to repair and rearm. Wrecks remain as obstacles.
-
-## Island visuals
-
-The playable campaign now uses the approved art direction in both Modern and Classic modes: textured ground, scanned rock formations, detailed palms and jungle foliage, grass and ferns, translucent lagoon water and surf, a working harbour, and warm daylight. Run the main game with **F5**. Mission layouts, movement, cover and night sights retain their gameplay rules. See [integration and verification notes](Docs/MAIN_GAME_VISUALS.md) for actual gameplay captures and performance samples.
-
-### Art direction preview
-
-Open `ArtStudy.tscn` and press **F6** in the Godot editor for the standalone tropical harbour study, or run `./Tools/PreviewArt.ps1`. It opens on the detailed harbour section: layered rock formations, grass and ferns, a detailed quay and a moving convoy. Shallow water reveals submerged rocks, with animated surf around the coast. Drag to orbit, scroll to zoom, use **1–3** for the original overview/harbour/road views, **4** for the detailed section, **5** for the quay, and **6** for the coastal close-up. See [the art study notes](Docs/ART_STUDY.md) for captures, measured performance and remaining work. This animated environment preview is separate from campaign combat.
 
 ## Campaign and deployment
 
