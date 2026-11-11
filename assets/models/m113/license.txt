@@ -1,0 +1,11 @@
+Model Information:
+* title:	M113A1
+* source:	https://sketchfab.com/3d-models/m113a1-b544214a78b64b47999022f50701cd3c
+* author:	Metehan (https://sketchfab.com/MenOfMena)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "M113A1" (https://sketchfab.com/3d-models/m113a1-b544214a78b64b47999022f50701cd3c) by Metehan (https://sketchfab.com/MenOfMena) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

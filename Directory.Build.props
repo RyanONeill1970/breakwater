@@ -1,0 +1,20 @@
+<Project>
+
+  <PropertyGroup>
+    <!-- The build is at zero warnings; this keeps it there. A new warning fails the build
+         instead of accumulating. -->
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+
+    <!-- Run the .editorconfig style rules (braces, namespaces, collection expressions...) as part
+         of the build, so the conventions are enforced rather than advisory. -->
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+
+    <!-- Required for IDE0005 (unnecessary usings) to run on build; public members are not documented. -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+
+    <!-- NuGet audit advisories stay warnings: they appear upstream without any change here. -->
+    <WarningsNotAsErrors>NU1901;NU1902;NU1903;NU1904</WarningsNotAsErrors>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+Model Information:
+* title:	SPW-60PB (East Germany)
+* source:	https://sketchfab.com/3d-models/spw-60pb-east-germany-bda671c3c1584c499c12216c4d78fb0d
+* author:	42manako (https://sketchfab.com/42manako)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "SPW-60PB (East Germany)" (https://sketchfab.com/3d-models/spw-60pb-east-germany-bda671c3c1584c499c12216c4d78fb0d) by 42manako (https://sketchfab.com/42manako) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

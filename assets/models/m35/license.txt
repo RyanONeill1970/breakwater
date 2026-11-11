@@ -1,0 +1,11 @@
+Model Information:
+* title:	M35 Truck
+* source:	https://sketchfab.com/3d-models/m35-truck-bbf515b01f7b4587a3f4531d1b871ce7
+* author:	ZeroFrost (https://sketchfab.com/zerofrost)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "M35 Truck" (https://sketchfab.com/3d-models/m35-truck-bbf515b01f7b4587a3f4531d1b871ce7) by ZeroFrost (https://sketchfab.com/zerofrost) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

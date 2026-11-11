@@ -1,0 +1,62 @@
+root = true
+
+# Breakwater code style: the machine-enforced part of Docs/csharp-conventions.md.
+
+[*]
+charset = utf-8
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{csproj,props,targets,json,tscn,godot}]
+indent_size = 2
+
+[*.cs]
+indent_size = 4
+
+# Layout: one statement per line, spaces around operators, Allman braces.
+csharp_preserve_single_line_statements = false
+csharp_preserve_single_line_blocks = false
+csharp_new_line_before_open_brace = all
+csharp_new_line_before_else = true
+csharp_new_line_before_catch = true
+csharp_new_line_before_finally = true
+csharp_space_around_binary_operators = before_and_after
+csharp_space_after_comma = true
+csharp_space_after_keywords_in_control_flow_statements = true
+csharp_space_after_semicolon_in_for_statement = true
+csharp_space_after_cast = false
+
+# Rule 7: always brace control-flow bodies (IDE0011).
+csharp_prefer_braces = true:warning
+dotnet_diagnostic.IDE0011.severity = warning
+
+# Rule 1: file-scoped namespaces (IDE0161).
+csharp_style_namespace_declarations = file_scoped:warning
+dotnet_diagnostic.IDE0161.severity = warning
+
+# Rule 2: usings live in Usings.cs as global usings; any file-local ones sit below the namespace.
+# The compiler counts that as "inside the namespace", so IDE0065 is silenced deliberately.
+csharp_using_directive_placement = inside_namespace:silent
+dotnet_diagnostic.IDE0065.severity = none
+dotnet_diagnostic.IDE0005.severity = warning
+dotnet_sort_system_directives_first = false
+
+# Rule 3: primary constructors (IDE0290).
+csharp_style_prefer_primary_constructors = true:suggestion
+
+# Rule 5: collection expressions for initialisers...
+dotnet_style_prefer_collection_expression = when_types_loosely_match:warning
+dotnet_diagnostic.IDE0028.severity = warning
+dotnet_diagnostic.IDE0300.severity = warning
+dotnet_diagnostic.IDE0301.severity = warning
+dotnet_diagnostic.IDE0303.severity = warning
+dotnet_diagnostic.IDE0304.severity = warning
+# ...but not for terminating a query: .ToList()/.ToArray() reads better than a [.. query] spread.
+dotnet_diagnostic.IDE0305.severity = none
+
+# General hygiene.
+dotnet_diagnostic.IDE0051.severity = warning
+dotnet_diagnostic.IDE0052.severity = warning
+csharp_style_var_when_type_is_apparent = true:silent
+csharp_style_expression_bodied_methods = when_on_single_line:silent

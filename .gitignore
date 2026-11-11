@@ -1,0 +1,18 @@
+.godot/
+.vs/
+bin/
+obj/
+Tests/bin/
+Tests/obj/
+*.user
+*.ncrunchsolution
+
+assets/incoming/
+
+# Poly Haven CC0 scans (~117 MB): re-download with Tools/FetchArtStudyAssets.ps1, which verifies
+# the published checksums. Each asset's source manifest is kept as the record of what was used.
+assets/art-study/*/*
+!assets/art-study/*/source-manifest.json
+
+# Demo video renders stay local; they are published as a GIF or on YouTube, not stored in git.
+Docs/demo/*.mp4
